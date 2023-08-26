@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(55, 133, 236);
+    font-family:fantasy;
+    color:bisque
+
+
+}   
+header{
+    background-color: rgb(17, 7, 7) !important;
+border: 2px solid rgb(0, 208, 255);
+border-radius: 20px;
+/* Confirguración de display flex*/
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: white;
+}
+header img{
+padding: 20px;
+}
+nav{
+        background-color: rgb(134, 5, 255);
+        border: 2px solid rgb(29, 228, 152);
+        border-radius: 20px;
+        /* Confirguración de display flex*/
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: rgb(243, 243, 243);
+font-size: 25px;
+}
+section{
+    width: 40%;
+    border: 2px solid rgb(7, 7, 7);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px auto;
+    background: linear-gradient(rgb(5, 50, 252), rgb(237, 239, 239));
+}
+form{
+    background-color: rgb(128, 36, 130);
+    width: 70%;
+    border-radius: 20px;
+    margin: 10px auto;
+    box-shadow: outset 0 0 10px purple;
+}
+fieldset{
+    border-style: none;
+}
+label{
+    font-size: 18px;
+}
+textarea{
+    resize: both;
+    max-height: 100px;
+}
+/*Pseudoclase focus: al dar clic en botón */
+input:focus, textarea:focus{
+    border-color: aqua;
+    cursor: pointer;
+    box-shadow: outset 0 0 10px rgba(0,29,255,0,6);
+    outline: 0 none;
+}
+form button{
+    width: 40%;
+    margin: 15px 20px;
+    height: 40px;
+    background: radial-gradient(rgb(227, 230, 227), rgb(222, 4, 153));
+    color: rgb(42, 32, 32);
+    border-radius: 15px;
+}
+form input{
+    height: 20px;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+}
+/* pseudoclase hover: al pasar mouse por encima control*/
+form button:hover{
+    background: rgb(6, 163, 103);
+    text-decoration: underline;
+    color: rgb(252, 251, 251);
+    cursor: pointer;
+}
+footer{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
